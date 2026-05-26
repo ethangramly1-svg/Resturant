@@ -455,7 +455,7 @@ table { border-collapse: collapse; }
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--c-ink-10);
 }
-.visit__hours { width: 100%; font-family: var(--f-sans); font-size: 0.95rem; }
+.visit__hours { width: 100%; font-family: var(--f-sans); font-size: 0.95rem; font-variant-numeric: tabular-nums; }
 .visit__hours th,
 .visit__hours td { padding: 0.5rem 0; text-align: left; font-weight: normal; vertical-align: baseline; }
 .visit__hours th {

@@ -19,8 +19,7 @@
 
 ## §1 — HERO
 
-**Eyebrow** (vermilion, letterspaced uppercase):
-> `[POSITIONING LINE — TBD]`
+**Eyebrow**: *(removed — Chris's call)*
 
 **H1 — pick one or write your own — flagged for Chris** ★
 
@@ -35,8 +34,7 @@
 
 *(All three are positioning lines, not factual claims about Yuen's operations. Any biographical line — origin story, generations, recipes — needs to come from Chris.)*
 
-**Subhead** (1-2 lines, sans):
-> `[SUBHEAD TBD]`
+**Subhead**: *(removed — Chris's call)*
 
 **Primary CTA**: `CALL (410) 327-2225`
 **Secondary CTA**: `SEE THE MENU`
@@ -54,7 +52,6 @@
 **Section header**:
 > ◆
 > **THE MENU**
-> `[Real Yuen's menu TBD — items + prices below are American-Chinese takeout standards as visual placeholder.]`
 
 **Categories** (filter pills, in order):
 1. Appetizers
@@ -134,7 +131,7 @@
 | C5. Shrimp with Lobster Sauce | $13.95 |
 | C6. Yuen's Family Plate | $24.95 |
 
-**End-of-menu CTA**: `VIEW FULL MENU (PDF) →`
+*(No end-of-menu CTA — full-menu-PDF button removed.)*
 
 ---
 
@@ -145,9 +142,17 @@
 > **COME IN, OR CALL AHEAD**
 
 ### Hours
-> **Open today until 1:00 AM.**
-> `[Full weekly hours TBD]`
-> For current hours, call (410) 327-2225.
+| Day | Hours |
+|---|---|
+| Monday | 5:30 PM – 12:30 AM |
+| Tuesday | 5:30 PM – 12:30 AM |
+| Wednesday | 5:30 PM – 12:30 AM |
+| Thursday | 5:30 PM – 12:30 AM |
+| Friday | 5:30 PM – 1:00 AM |
+| Saturday | 5:30 PM – 1:00 AM |
+| Sunday | *Closed* |
+
+*(Monday May 25, 2026 was Memorial Day, closed as one-time holiday exception. Regular Mondays follow the standard 5:30 PM – 12:30 AM pattern.)*
 
 ### Address
 > 536 N Chester St
@@ -206,7 +211,7 @@
 | Phone | (410) 327-2225 |
 | Rating | 4.4 (252 reviews) |
 | Price tier | $10–20 |
-| Hours snapshot | Open · Closes 1 AM (full weekly schedule TBD) |
+| Hours | Mon–Thu 5:30 PM – 12:30 AM · Fri–Sat 5:30 PM – 1:00 AM · Sun Closed |
 | Maps URL | [Google Maps search](https://www.google.com/maps/search/Yuen%27s+Chinese+Food+Carryout+Baltimore+MD/) |
 | Takeout | Yes |
 | Delivery | No |
@@ -215,12 +220,8 @@
 
 ## ★ Decisions waiting on Chris
 
-1. **Hero eyebrow line** — what positioning line do you want above the H1?
-2. **Hero H1** — pick A, B, C, or write your own
-3. **Hero subhead** — 1-2 lines, can use real data (hours, location) or be purely positioning
-4. **Real menu** — confirm dishes + prices, or send PDF of current menu
-5. **Full weekly hours** — Monday–Sunday open/close times
-6. **Hero stamp Chinese characters** — currently `始于东方` (generic), can swap
-7. **Social handles** — Instagram, Facebook URLs (or remove the icons)
-8. **Menu PDF** — actual file URL, or remove the button
-9. **Delivery platforms** — add back when integrations are built (DoorDash, Grubhub, etc.)
+1. **Hero H1** — pick A, B, C, or write your own
+2. **Real menu** — confirm dishes + prices when ready
+3. **Hero stamp Chinese characters** — currently `始于东方` (generic), can swap
+4. **Social handles** — Instagram, Facebook URLs (or remove the icons)
+5. **Delivery platforms** — add back when integrations are built (DoorDash, Grubhub, etc.)

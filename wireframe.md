@@ -24,20 +24,18 @@ Design system: `design.md` (Modern Eastern Heritage / 新中式).
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │                                                                            │
-│   [eyebrow]   [POSITIONING LINE — TBD]                                     │
-│                                                                            │
 │   The neighborhood                                  ┌──────────┐           │
 │   takeout, made with                                │   ◆      │           │
 │   patience.                                         │  始于东方 │           │
 │                                                     │          │           │
-│   [subhead TBD]                                     │ 01 // 03 │           │
+│                                                     │ 01 // 03 │           │
 │                                                     └──────────┘           │
 │   [ CALL (410) 327-2225 ]  [ SEE THE MENU ]                                │
 │                                                                            │
 │        ░░░░░░░░░░░░  animated ink-smoke SVG behind  ░░░░░░░░░░░░          │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
-- LEFT 60%: eyebrow (vermilion, letterspaced — TBD) / H1 (Playfair, ~5rem) / subhead TBD / dual CTA (call + menu)
+- LEFT 60%: H1 (Playfair, ~5rem) / dual CTA (call + menu)
 - RIGHT 40%: vertical sequence label ("SEQUENCE") + boxed Chinese stamp (generic motif `始于东方`) + counter "01 // 03"
 - BACKGROUND: full-bleed animated SVG — drifting ink-wash blobs at ~7% opacity behind everything
 
@@ -50,7 +48,6 @@ Design system: `design.md` (Modern Eastern Heritage / 新中式).
 │                                                                            │
 │                   ──── ◆ ────                                              │
 │                   THE MENU                                                 │
-│                   [Real menu TBD — placeholder shown]                      │
 │                                                                            │
 │   [ Appetizers ] [ Soups ] [ Lo Mein ] [ Chow Mein ] [ Fried Rice ]        │
 │   [ Chef's Specials ] [ Combo Plates ]                                     │
@@ -66,15 +63,12 @@ Design system: `design.md` (Modern Eastern Heritage / 新中式).
 │   ─────────────────────────────────────────────────────────────────        │
 │   LO MEIN                                                                  │
 │   ...                                                                      │
-│                                                                            │
-│                   [ VIEW FULL MENU (PDF) ]                                 │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
-- Section header centered, ◆ ornament above, sub-line marked as TBD placeholder
+- Section header centered, ◆ ornament above
 - Category nav: thin ink-line tabs, current category darkens
 - **Menu items: two-column flow per category** — name left, leader dots, price right-aligned (Songti serif)
 - Vertical rhythm of ~6rem between categories (留白 — let it breathe)
-- Bottom CTA: secondary ghost button → full PDF menu (URL TBD)
 
 ---
 
@@ -89,22 +83,22 @@ Design system: `design.md` (Modern Eastern Heritage / 新中式).
 │   ┌─────────────┐    ┌──────────────────────┐    ┌──────────────────┐     │
 │   │  HOURS      │    │  ADDRESS             │    │  CONTACT         │     │
 │   │             │    │                      │    │                  │     │
-│   │  Open today │    │  536 N Chester St    │    │  (410) 327-2225  │     │
-│   │  until 1AM  │    │  Baltimore, MD 21205 │    │                  │     │
-│   │             │    │                      │    │  Carryout.       │     │
-│   │  [Full      │    │  ┌──────────────┐    │    │                  │     │
-│   │   weekly    │    │  │ Google Maps  │    │    │                  │     │
-│   │   hours     │    │  │ iframe embed │    │    │                  │     │
-│   │   TBD]      │    │  │              │    │    │                  │     │
-│   │             │    │  └──────────────┘    │    │                  │     │
+│   │  MON 5:30PM─12:30AM │  536 N Chester St │    │  (410) 327-2225  │     │
+│   │  TUE   5:30PM─12:30AM│ Baltimore, MD 21205│   │                  │     │
+│   │  WED   5:30PM─12:30AM│                  │    │  Carryout.       │     │
+│   │  THU   5:30PM─12:30AM│ ┌──────────────┐ │    │                  │     │
+│   │  FRI   5:30PM─ 1:00AM│ │ Google Maps  │ │    │                  │     │
+│   │  SAT   5:30PM─ 1:00AM│ │ iframe embed │ │    │                  │     │
+│   │  SUN   Closed       │ │              │ │    │                  │     │
+│   │                     │ └──────────────┘ │    │                  │     │
 │   └─────────────┘    └──────────────────────┘    └──────────────────┘     │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 - Three columns, equal weight
-- HOURS: shows known fact ("Open today until 1 AM") + bracketed placeholder for the full weekly schedule + a "call for current hours" line. No invented week.
+- HOURS: real 7-day table — Mon–Thu 5:30 PM – 12:30 AM, Fri–Sat 5:30 PM – 1:00 AM, Sun closed
 - ADDRESS: real address (linked to Google Maps), embedded Google Maps iframe below
-- CONTACT: just the phone number for now — no email until Chris provides one
+- CONTACT: phone only — no email until Chris provides one
 
 ---
 
