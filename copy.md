@@ -1,7 +1,7 @@
 # Yuen's Chinese Food Carryout — Conversion Copy
 
 > All copy below is the source of truth. The HTML pulls from it. Edit here, regenerate HTML.
-> **Bracketed [PLACEHOLDER] items need real Yuen's data before launch.**
+> **Bracketed `[PLACEHOLDER]` items still need real Yuen's data.**
 
 ---
 
@@ -12,16 +12,15 @@
 | Logo wordmark | `YUEN'S` |
 | Logo sub-mark | `阮氏 · CARRYOUT` |
 | Nav link 1 | `MENU` |
-| Nav link 2 | `STORY` |
-| Nav link 3 | `VISIT` |
-| Primary CTA button | `ORDER ONLINE →` |
+| Nav link 2 | `VISIT` |
+| Primary CTA button | `CALL (410) 327-2225` |
 
 ---
 
 ## §1 — HERO
 
 **Eyebrow** (vermilion, letterspaced uppercase):
-> `[POSITIONING LINE — TBD, e.g. "Family-owned · Since YYYY" — waiting on Chris for real claim]`
+> `[POSITIONING LINE — TBD]`
 
 **H1 — pick one or write your own — flagged for Chris** ★
 
@@ -31,22 +30,22 @@
 > **Option B (positioning play):**
 > The Chinese takeout you'll bring your parents to.
 
-> **Option C (operational positioning):**
-> Cooked tonight. Ready in twenty.
+> **Option C (place-anchored):**
+> East Baltimore. Cooked tonight.
 
-*(All three are positioning lines, not claims about Yuen's specifically. Any biographical line — origin story, generations, recipes — needs to come from Chris.)*
+*(All three are positioning lines, not factual claims about Yuen's operations. Any biographical line — origin story, generations, recipes — needs to come from Chris.)*
 
-**Subhead** (2 lines, sans):
-> `[SUBHEAD TBD — pattern is one line of positioning + one line of practical detail (hours, pickup time, etc.). Waiting on Chris for real details.]`
+**Subhead** (1-2 lines, sans):
+> `[SUBHEAD TBD]`
 
-**Primary CTA**: `ORDER ONLINE →`
+**Primary CTA**: `CALL (410) 327-2225`
 **Secondary CTA**: `SEE THE MENU`
 
 **Right-side stamp**:
 - Label above: `SEQUENCE`
 - Diamond: `◆`
-- Chinese: `始于东方` *(shǐ yú dōng fāng — "originating from the East")* — generic design-system motif, not a biographical claim. Swap to any neutral 4-character phrase Chris prefers.
-- Counter: `01 // 04`
+- Chinese: `始于东方` *(shǐ yú dōng fāng — "originating from the East")* — generic design-system motif, swap freely.
+- Counter: `01 // 03`
 
 ---
 
@@ -55,18 +54,18 @@
 **Section header**:
 > ◆
 > **THE MENU**
-> What we cook, every day.
+> `[Real Yuen's menu TBD — items + prices below are American-Chinese takeout standards as visual placeholder.]`
 
 **Categories** (filter pills, in order):
 1. Appetizers
 2. Soups
 3. Lo Mein
-4. Chow Mein  
+4. Chow Mein
 5. Fried Rice
 6. Chef's Specials
 7. Combo Plates
 
-**Placeholder menu** (American-Chinese takeout standards — **swap with real Yuen's menu when available**):
+**Placeholder menu** (swap with real Yuen's menu when available):
 
 ### Appetizers
 | Dish | Price |
@@ -88,8 +87,6 @@
 | House Special Soup *(for two)* | $9.95 |
 
 ### Lo Mein
-> Soft wheat noodles, tossed in our house soy. Choose your protein.
-
 | Dish | Price |
 |---|---|
 | Vegetable Lo Mein | $8.95 |
@@ -99,8 +96,6 @@
 | House Special Lo Mein | $12.95 |
 
 ### Chow Mein
-> Crispy noodle base, vegetables, your choice of protein.
-
 | Dish | Price |
 |---|---|
 | Chicken Chow Mein | $9.95 |
@@ -118,8 +113,6 @@
 | Yuen's Special Fried Rice | $12.95 |
 
 ### Chef's Specials
-> Slow-cooked, hand-built. Served with white rice.
-
 | Dish | Price |
 |---|---|
 | General Tso's Chicken | $13.95 |
@@ -129,11 +122,9 @@
 | Kung Pao Shrimp | $15.95 |
 | Salt & Pepper Shrimp | $16.95 |
 | Walnut Shrimp | $17.95 |
-| Yuen's Three Delights *(chicken, beef, shrimp)* | $17.95 |
+| Yuen's Three Delights | $17.95 |
 
 ### Combo Plates
-> All combo plates include pork fried rice and an egg roll. Lunch combos served until 3pm — $9.95.
-
 | Combo | Price |
 |---|---|
 | C1. Sweet & Sour Chicken | $11.95 |
@@ -141,116 +132,95 @@
 | C3. General Tso's Chicken | $12.95 |
 | C4. Beef with Broccoli | $12.95 |
 | C5. Shrimp with Lobster Sauce | $13.95 |
-| C6. Yuen's Family Plate *(any two specials, family-style)* | $24.95 |
+| C6. Yuen's Family Plate | $24.95 |
 
-**End-of-menu CTA**: `VIEW FULL MENU (PDF)` →
-
----
-
-## §3 — STORY
-
-**Section header**:
-> ◆
-> **OUR STORY**
-
-**Body**:
-> `[STORY TBD — waiting on Chris for the real Yuen's narrative.`
-> `Intended structure: 3 short paragraphs (~50-80 words each).`
-> `Para 1: founding moment (who, when, where, why).`
-> `Para 2: what makes the cooking distinctive (recipes, technique, ingredients).`
-> `Para 3: who's there today.`
-> `No invented details. Send real story, in any rough form — I'll shape it.]`
-
-**Pull quote** (centered, large) — *optional, swap or remove*:
-> 「 慢工出細活 」
-> *"Slow work brings fine results."*
-
-*(The proverb above is a real Chinese saying about patient craft, not a claim about Yuen's. It's design-system fixture. Chris can swap for another proverb, a family motto, or remove entirely.)*
+**End-of-menu CTA**: `VIEW FULL MENU (PDF) →`
 
 ---
 
-## §4 — VISIT
+## §3 — VISIT
 
 **Section header**:
 > ◆
 > **COME IN, OR CALL AHEAD**
 
 ### Hours
-
-| Day | Hours |
-|---|---|
-| Monday | *Closed* |
-| Tuesday | 11:00am – 10:00pm |
-| Wednesday | 11:00am – 10:00pm |
-| Thursday | 11:00am – 10:00pm |
-| Friday | 11:00am – 11:00pm |
-| Saturday | 12:00pm – 11:00pm |
-| Sunday | 12:00pm – 9:00pm |
-
-*Kitchen closes 15 minutes before posted close.*
-*Closed: Thanksgiving, Christmas, Lunar New Year (3 days).*
+> **Open today until 1:00 AM.**
+> `[Full weekly hours TBD]`
+> For current hours, call (410) 327-2225.
 
 ### Address
-> [123 Main Street]
-> [City, State 00000]
-> *Free parking in rear. Curbside pickup available — call when you arrive.*
+> 536 N Chester St
+> Baltimore, MD 21205
+> *(Address links to Google Maps. Embedded map iframe shown below address.)*
 
 ### Contact
-> **Phone**: [(xxx) xxx-xxxx]
-> **Email**: [hello@yuenscarryout.com]
-> *We answer the phone. A real person, every time.*
+> **Phone**: (410) 327-2225
+> *Carryout.*
 
 ---
 
-## §5 — ORDER CTA (full-bleed vermilion)
+## §4 — ORDER CTA (full-bleed vermilion)
 
 **Headline**:
-> Order in 90 seconds.
-> Pickup ready in 20.
+> Order by phone.
+> Or come in.
 
-**Subhead** (smaller, optional):
-> Tap the platform you prefer. Or call us — we still like that.
+**CTAs** (2 outlined buttons):
+1. `CALL (410) 327-2225`
+2. `GET DIRECTIONS →`
 
-**CTAs** (4 equal-weight outlined buttons):
-1. `DOORDASH →`
-2. `GRUBHUB →`
-3. `UBER EATS →`
-4. `CALL [(xxx) xxx-xxxx]`
+*(Delivery platform buttons — DoorDash, Grubhub, Uber Eats, Toast, etc. — removed until those integrations actually exist. Add back here when ready.)*
 
 ---
 
-## §6 — FOOTER
+## §5 — FOOTER
 
 | Element | Copy |
 |---|---|
 | Wordmark | `YUEN'S 阮氏` |
-| Tagline (tiny) | `Carryout, since 1987.` |
+| Tagline (tiny) | `Carryout · Baltimore` |
 | Copyright | `© 2026 YUEN'S CHINESE FOOD CARRYOUT · ALL RIGHTS RESERVED` |
-| Sitemap | `MENU · STORY · VISIT · ORDER` |
+| Sitemap | `MENU · VISIT · CALL` |
 | Social | `INSTAGRAM · FACEBOOK` |
 
 ---
 
 ## Tone & voice rules (for future edits)
 
-- **Specific over generic.** "Open six nights" beats "Open most days."
+- **Don't fabricate.** No backstory, founding dates, family details, operational claims unless Chris provides them.
 - **Don't say "authentic."** Show it, don't claim it.
 - **No exclamation marks.** The calm is the brand.
 - **Restraint earns the reds.** Vermilion only on CTAs, eyebrows, accents.
 - **English and Chinese sit together.** Never translate every Chinese phrase — sometimes mystery is the point.
-- **Talk like a family member.** "We answer the phone" not "Our customer service team is committed to..."
+
+---
+
+## Known Yuen's facts (from Chris)
+
+| Field | Value |
+|---|---|
+| Name | Yuen's Chinese Food Carryout |
+| Type | Chinese restaurant |
+| Address | 536 N Chester St, Baltimore, MD 21205 |
+| Phone | (410) 327-2225 |
+| Rating | 4.4 (252 reviews) |
+| Price tier | $10–20 |
+| Hours snapshot | Open · Closes 1 AM (full weekly schedule TBD) |
+| Maps URL | [Google Maps search](https://www.google.com/maps/search/Yuen%27s+Chinese+Food+Carryout+Baltimore+MD/) |
+| Takeout | Yes |
+| Delivery | No |
 
 ---
 
 ## ★ Decisions waiting on Chris
 
-1. **Hero eyebrow line** — what's true about Yuen's? (e.g. "family-owned since X", "open since X", "carryout & delivery", etc.) — needs to come from you
+1. **Hero eyebrow line** — what positioning line do you want above the H1?
 2. **Hero H1** — pick A, B, C, or write your own
-3. **Hero subhead** — 1 positioning line + 1 practical line — needs real claims from you
-4. **Story section** — the actual Yuen's story (any rough notes welcome, I'll shape)
-5. **Pull quote** — keep `慢工出細活`, swap for another proverb, or remove
+3. **Hero subhead** — 1-2 lines, can use real data (hours, location) or be purely positioning
+4. **Real menu** — confirm dishes + prices, or send PDF of current menu
+5. **Full weekly hours** — Monday–Sunday open/close times
 6. **Hero stamp Chinese characters** — currently `始于东方` (generic), can swap
-7. **Real menu** — confirm dishes + prices, or send PDF of current menu
-8. **Address, phone, hours** — actual values to swap for placeholders
-9. **Delivery platforms** — which of DoorDash / Grubhub / Uber Eats / Toast / direct
-10. **Dashboard operator name** — if the dashboard is for a real person, what initials should the avatar show?
+7. **Social handles** — Instagram, Facebook URLs (or remove the icons)
+8. **Menu PDF** — actual file URL, or remove the button
+9. **Delivery platforms** — add back when integrations are built (DoorDash, Grubhub, etc.)
