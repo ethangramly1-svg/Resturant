@@ -21,21 +21,23 @@
 ## §1 — HERO
 
 **Eyebrow** (vermilion, letterspaced uppercase):
-> FAMILY-OWNED · SINCE [1987]
+> `[POSITIONING LINE — TBD, e.g. "Family-owned · Since YYYY" — waiting on Chris for real claim]`
 
-**H1 — pick one — flagged for Chris** ★
+**H1 — pick one or write your own — flagged for Chris** ★
 
 > **Option A (literati restraint):**
 > The neighborhood takeout, made with patience.
 
-> **Option B (sensory, specific):**
-> Hand-pulled noodles. Wok-charred rice. Recipes our grandmother wrote down.
-
-> **Option C (positioning play):**
+> **Option B (positioning play):**
 > The Chinese takeout you'll bring your parents to.
 
+> **Option C (operational positioning):**
+> Cooked tonight. Ready in twenty.
+
+*(All three are positioning lines, not claims about Yuen's specifically. Any biographical line — origin story, generations, recipes — needs to come from Chris.)*
+
 **Subhead** (2 lines, sans):
-> Three generations at the wok in [city name]. Open six nights a week. Pickup ready in twenty.
+> `[SUBHEAD TBD — pattern is one line of positioning + one line of practical detail (hours, pickup time, etc.). Waiting on Chris for real details.]`
 
 **Primary CTA**: `ORDER ONLINE →`
 **Secondary CTA**: `SEE THE MENU`
@@ -43,7 +45,7 @@
 **Right-side stamp**:
 - Label above: `SEQUENCE`
 - Diamond: `◆`
-- Chinese: `传家` *(chuán jiā — "passed down through the family")*
+- Chinese: `始于东方` *(shǐ yú dōng fāng — "originating from the East")* — generic design-system motif, not a biographical claim. Swap to any neutral 4-character phrase Chris prefers.
 - Counter: `01 // 04`
 
 ---
@@ -151,17 +153,19 @@
 > ◆
 > **OUR STORY**
 
-**Body** (three short paragraphs, no headers):
+**Body**:
+> `[STORY TBD — waiting on Chris for the real Yuen's narrative.`
+> `Intended structure: 3 short paragraphs (~50-80 words each).`
+> `Para 1: founding moment (who, when, where, why).`
+> `Para 2: what makes the cooking distinctive (recipes, technique, ingredients).`
+> `Para 3: who's there today.`
+> `No invented details. Send real story, in any rough form — I'll shape it.]`
 
-> In [1987], Mr. and Mrs. Yuen left [Guangzhou] for [city, state] with two suitcases, a wok, and a notebook of recipes their parents had taught them. They opened the doors on [street name] later that year and never closed them.
-
-> The recipes haven't changed much. The dumplings are still folded by hand every morning before service. The chow mein still gets that exact char from a wok kept seasoned for forty years. The lo mein sauce is still the version Mrs. Yuen tasted at her grandmother's table in 1962.
-
-> Today their daughter [Linda] runs the kitchen. Her son works the register on weekends. When you walk in, you'll probably see all three.
-
-**Pull quote** (centered, large):
+**Pull quote** (centered, large) — *optional, swap or remove*:
 > 「 慢工出細活 」
 > *"Slow work brings fine results."*
+
+*(The proverb above is a real Chinese saying about patient craft, not a claim about Yuen's. It's design-system fixture. Chris can swap for another proverb, a family motto, or remove entirely.)*
 
 ---
 
@@ -240,8 +244,13 @@
 
 ## ★ Decisions waiting on Chris
 
-1. **Hero H1** — pick A, B, C, or write your own
-2. **Real menu** — confirm dishes + prices, or send PDF of current menu
-3. **Family story details** — names, founding year, city, country/region of origin
-4. **Address, phone, hours** — actual values to swap for placeholders
-5. **Delivery platforms** — which of DoorDash / Grubhub / Uber Eats / Toast / direct
+1. **Hero eyebrow line** — what's true about Yuen's? (e.g. "family-owned since X", "open since X", "carryout & delivery", etc.) — needs to come from you
+2. **Hero H1** — pick A, B, C, or write your own
+3. **Hero subhead** — 1 positioning line + 1 practical line — needs real claims from you
+4. **Story section** — the actual Yuen's story (any rough notes welcome, I'll shape)
+5. **Pull quote** — keep `慢工出細活`, swap for another proverb, or remove
+6. **Hero stamp Chinese characters** — currently `始于东方` (generic), can swap
+7. **Real menu** — confirm dishes + prices, or send PDF of current menu
+8. **Address, phone, hours** — actual values to swap for placeholders
+9. **Delivery platforms** — which of DoorDash / Grubhub / Uber Eats / Toast / direct
+10. **Dashboard operator name** — if the dashboard is for a real person, what initials should the avatar show?
