@@ -129,11 +129,12 @@ Design system: `design.md` (Modern Eastern Heritage / 新中式).
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  YUEN'S 阮氏                                                                │
 │                                                                            │
-│  © 2026 YUEN'S CARRYOUT          MENU  VISIT  CALL          IG  FB         │
+│  © 2026 YUEN'S CARRYOUT                  MENU  VISIT  CALL                 │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
-- Wordmark, copyright, sitemap (3 links), social icons
+- Wordmark, copyright, sitemap (3 links)
 - Thin top border (1px ink), generous padding
+- (No social icons — Yuen's has no IG/FB presence.)
 
 ---
 

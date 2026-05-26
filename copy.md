@@ -187,7 +187,6 @@
 | Tagline (tiny) | `Carryout · Baltimore` |
 | Copyright | `© 2026 YUEN'S CHINESE FOOD CARRYOUT · ALL RIGHTS RESERVED` |
 | Sitemap | `MENU · VISIT · CALL` |
-| Social | `INSTAGRAM · FACEBOOK` |
 
 ---
 
@@ -223,5 +222,4 @@
 1. **Hero H1** — pick A, B, C, or write your own
 2. **Real menu** — confirm dishes + prices when ready
 3. **Hero stamp Chinese characters** — currently `始于东方` (generic), can swap
-4. **Social handles** — Instagram, Facebook URLs (or remove the icons)
-5. **Delivery platforms** — add back when integrations are built (DoorDash, Grubhub, etc.)
+4. **Delivery platforms** — add back when integrations are built (DoorDash, Grubhub, etc.)
