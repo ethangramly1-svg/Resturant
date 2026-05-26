@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuen's · Operations · Tonight</title>
+  <meta name="description" content="Restaurant operations dashboard for Yuen's Chinese Food Carryout — orders, revenue, and kitchen status at a glance." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body class="dash">
+
+  <!-- TOP BAR ──────────────────────────────────────────────────────── -->
+  <header class="dash__topbar">
+    <div class="dash__topbar-inner">
+      <div class="dash__brand">
+        <span class="dash__wordmark">YUEN'S</span>
+        <span class="dash__divider"></span>
+        <span class="dash__context">OPERATIONS</span>
+      </div>
+
+      <nav class="dash__nav" aria-label="Dashboard sections">
+        <a href="#" class="is-active">TONIGHT</a>
+        <a href="#">ORDERS</a>
+        <a href="#">MENU</a>
+        <a href="#">PEOPLE</a>
+        <a href="#">REPORTS</a>
+      </nav>
+
+      <div class="dash__meta">
+        <span class="dash__date" id="js-date">Saturday · May 25 · 7:42 PM</span>
+        <a href="../index.html" class="dash__view-site">VIEW SITE&nbsp;→</a>
+        <div class="dash__avatar" aria-label="Linda Yuen">LY</div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- PAGE HEADER ────────────────────────────────────────────────────── -->
+  <section class="dash__page-head">
+    <div class="dash__container">
+      <p class="eyebrow">SERVICE · NIGHT</p>
+      <h1 class="dash__h1">Tonight at a glance.</h1>
+      <p class="dash__sub">Live, updated every <span class="dash__data">15s</span>. Last refresh: <span id="js-refresh">just now</span>.</p>
+    </div>
+  </section>
+
+
+  <!-- KPI STRIP ──────────────────────────────────────────────────────── -->
+  <section class="dash__section">
+    <div class="dash__container">
+      <div class="dash__kpis">
+
+        <article class="kpi">
+          <span class="kpi__accent"></span>
+          <p class="kpi__label">ORDERS TODAY</p>
+          <p class="kpi__value">47</p>
+          <p class="kpi__delta kpi__delta--up">▲ 12% <span>vs. last Sat</span></p>
+        </article>
+
+        <article class="kpi">
+          <span class="kpi__accent"></span>
+          <p class="kpi__label">REVENUE</p>
+          <p class="kpi__value">$1,284<span class="kpi__cents">.50</span></p>
+          <p class="kpi__delta kpi__delta--up">▲ 8% <span>vs. last Sat</span></p>
+        </article>
+
+        <article class="kpi">
+          <span class="kpi__accent"></span>
+          <p class="kpi__label">AVG TICKET</p>
+          <p class="kpi__value">$27<span class="kpi__cents">.33</span></p>
+          <p class="kpi__delta kpi__delta--down">▼ 3% <span>vs. last Sat</span></p>
+        </article>
+
+        <article class="kpi kpi--accent">
+          <span class="kpi__accent"></span>
+          <p class="kpi__label">ACTIVE</p>
+          <p class="kpi__value">6</p>
+          <p class="kpi__delta">in the kitchen · longest 12 min</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TREND + TOP SELLERS ────────────────────────────────────────────── -->
+  <section class="dash__section">
+    <div class="dash__container dash__split">
+
+      <article class="card card--trend">
+        <header class="card__head">
+          <h2>REVENUE · LAST 7 NIGHTS</h2>
+          <div class="card__head-meta">
+            <span class="dash__data">$8,742</span> total
+            <span class="dash__pipe">|</span>
+            <span class="dash__data">$1,248</span> avg
+          </div>
+        </header>
+
+        <!-- Sparkline SVG ───── -->
+        <div class="trend">
+          <svg class="trend__svg" viewBox="0 0 700 240" preserveAspectRatio="none" aria-label="Revenue, last 7 nights">
+            <!-- gridlines -->
+            <g class="trend__grid">
+              <line x1="0" y1="40"  x2="700" y2="40"  />
+              <line x1="0" y1="100" x2="700" y2="100" />
+              <line x1="0" y1="160" x2="700" y2="160" />
+              <line x1="0" y1="220" x2="700" y2="220" />
+            </g>
+
+            <!-- area fill under curve -->
+            <path class="trend__area" d="M50,140 L150,98 L250,168 L350,82 L450,118 L550,68 L650,52 L650,220 L50,220 Z"/>
+
+            <!-- line -->
+            <path class="trend__line" d="M50,140 L150,98 L250,168 L350,82 L450,118 L550,68 L650,52"/>
+
+            <!-- nodes -->
+            <g class="trend__nodes">
+              <circle cx="50"  cy="140" r="4"/>
+              <circle cx="150" cy="98"  r="4"/>
+              <circle cx="250" cy="168" r="4"/>
+              <circle cx="350" cy="82"  r="4"/>
+              <circle cx="450" cy="118" r="4"/>
+              <circle cx="550" cy="68"  r="4"/>
+              <circle class="trend__node--current" cx="650" cy="52" r="6"/>
+            </g>
+
+            <!-- x-axis labels -->
+            <g class="trend__xlabels">
+              <text x="50"  y="238">SUN</text>
+              <text x="150" y="238">MON</text>
+              <text x="250" y="238">TUE</text>
+              <text x="350" y="238">WED</text>
+              <text x="450" y="238">THU</text>
+              <text x="550" y="238">FRI</text>
+              <text x="650" y="238">SAT</text>
+            </g>
+          </svg>
+        </div>
+      </article>
+
+      <article class="card card--sellers">
+        <header class="card__head">
+          <h2>TOP SELLERS · TONIGHT</h2>
+          <div class="card__head-meta"><span class="dash__data">102</span> dishes plated</div>
+        </header>
+
+        <ol class="sellers">
+          <li>
+            <span class="sellers__rank">01</span>
+            <span class="sellers__name">General Tso's Chicken</span>
+            <span class="sellers__bar"><span style="width:100%"></span></span>
+            <span class="sellers__count">23</span>
+          </li>
+          <li>
+            <span class="sellers__rank">02</span>
+            <span class="sellers__name">Chicken Lo Mein</span>
+            <span class="sellers__bar"><span style="width:82%"></span></span>
+            <span class="sellers__count">19</span>
+          </li>
+          <li>
+            <span class="sellers__rank">03</span>
+            <span class="sellers__name">Pork Fried Rice</span>
+            <span class="sellers__bar"><span style="width:74%"></span></span>
+            <span class="sellers__count">17</span>
+          </li>
+          <li>
+            <span class="sellers__rank">04</span>
+            <span class="sellers__name">Wonton Soup</span>
+            <span class="sellers__bar"><span style="width:65%"></span></span>
+            <span class="sellers__count">15</span>
+          </li>
+          <li>
+            <span class="sellers__rank">05</span>
+            <span class="sellers__name">Sesame Chicken</span>
+            <span class="sellers__bar"><span style="width:56%"></span></span>
+            <span class="sellers__count">13</span>
+          </li>
+          <li>
+            <span class="sellers__rank">06</span>
+            <span class="sellers__name">Crab Rangoon</span>
+            <span class="sellers__bar"><span style="width:48%"></span></span>
+            <span class="sellers__count">11</span>
+          </li>
+          <li>
+            <span class="sellers__rank">07</span>
+            <span class="sellers__name">Egg Roll</span>
+            <span class="sellers__bar"><span style="width:39%"></span></span>
+            <span class="sellers__count">9</span>
+          </li>
+        </ol>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- ORDERS TABLE ───────────────────────────────────────────────────── -->
+  <section class="dash__section dash__section--last">
+    <div class="dash__container">
+      <article class="card">
+        <header class="card__head">
+          <h2>RECENT ORDERS</h2>
+          <div class="card__head-meta">
+            <button class="chip is-active">ALL</button>
+            <button class="chip">NEW</button>
+            <button class="chip">PREPARING</button>
+            <button class="chip">READY</button>
+            <button class="chip">COMPLETED</button>
+          </div>
+        </header>
+
+        <table class="orders">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>CUSTOMER</th>
+              <th>ITEMS</th>
+              <th class="orders__num">TOTAL</th>
+              <th>STATUS</th>
+              <th class="orders__num">TIME</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="orders__id">4827</span></td>
+              <td>Wong, J.</td>
+              <td>General Tso's, Lo Mein, Wonton Soup</td>
+              <td class="orders__num">$42.85</td>
+              <td><span class="pill pill--prep">PREPARING</span></td>
+              <td class="orders__num">7:42 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+            <tr>
+              <td><span class="orders__id">4826</span></td>
+              <td>Garcia, M.</td>
+              <td>Sesame Chicken Combo, Egg Roll</td>
+              <td class="orders__num">$28.40</td>
+              <td><span class="pill pill--new">NEW</span></td>
+              <td class="orders__num">7:38 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+            <tr>
+              <td><span class="orders__id">4825</span></td>
+              <td>Chen, W.</td>
+              <td>Family Plate, Wonton Soup ×2, Spring Rolls</td>
+              <td class="orders__num">$67.25</td>
+              <td><span class="pill pill--prep">PREPARING</span></td>
+              <td class="orders__num">7:35 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+            <tr>
+              <td><span class="orders__id">4824</span></td>
+              <td>Smith, A.</td>
+              <td>Chicken Chow Mein</td>
+              <td class="orders__num">$13.95</td>
+              <td><span class="pill pill--ready">READY</span></td>
+              <td class="orders__num">7:31 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+            <tr>
+              <td><span class="orders__id">4823</span></td>
+              <td>Patel, R.</td>
+              <td>Veg Lo Mein, Hot &amp; Sour, Crab Rangoon, Egg Roll</td>
+              <td class="orders__num">$54.80</td>
+              <td><span class="pill pill--ready">READY</span></td>
+              <td class="orders__num">7:28 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+            <tr class="is-completed">
+              <td><span class="orders__id">4822</span></td>
+              <td>Johnson, K.</td>
+              <td>Beef Lo Mein, Egg Drop</td>
+              <td class="orders__num">$24.50</td>
+              <td><span class="pill pill--done">COMPLETED</span></td>
+              <td class="orders__num">7:24 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+            <tr class="is-completed">
+              <td><span class="orders__id">4821</span></td>
+              <td>Lee, S.</td>
+              <td>Orange Beef Combo, Pot Stickers</td>
+              <td class="orders__num">$38.95</td>
+              <td><span class="pill pill--done">COMPLETED</span></td>
+              <td class="orders__num">7:18 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+            <tr class="is-completed">
+              <td><span class="orders__id">4820</span></td>
+              <td>Davis, T.</td>
+              <td>Three Delights, Yuen's Fried Rice, ×3 sides</td>
+              <td class="orders__num">$78.60</td>
+              <td><span class="pill pill--done">COMPLETED</span></td>
+              <td class="orders__num">7:10 PM</td>
+              <td><a href="#" class="orders__action">OPEN&nbsp;→</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </div>
+  </section>
+
+
+  <footer class="dash__footer">
+    <div class="dash__container dash__footer-inner">
+      <span>YUEN'S · OPERATIONS</span>
+      <span>v0.1 prototype</span>
+      <a href="../index.html">← Back to site</a>
+    </div>
+  </footer>
+
+  <script>
+    // Filter chips — visual only for now
+    document.querySelectorAll('.chip').forEach(c => {
+      c.addEventListener('click', () => {
+        document.querySelectorAll('.chip').forEach(x => x.classList.remove('is-active'));
+        c.classList.add('is-active');
+      });
+    });
+
+    // Live-ish "refresh just now" counter, harmless
+    const refresh = document.getElementById('js-refresh');
+    let sec = 0;
+    setInterval(() => {
+      sec += 15;
+      refresh.textContent = sec < 60 ? `${sec}s ago` : `${Math.floor(sec/60)}m ago`;
+    }, 15000);
+  </script>
+</body>
+</html>
